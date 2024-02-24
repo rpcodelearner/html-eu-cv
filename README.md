@@ -1,4 +1,6 @@
-# html-eu-cv
+# html-eu-cv - UNDER DEV
+**WARNING (2024.Feb.24) - I began by writing the README.md file and the repo is still EMPTY**  
+  
 European Style Curriculum Vitae (Résumé) Template, in HTML+CSS
 
 ## Motivation
