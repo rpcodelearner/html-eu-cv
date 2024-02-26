@@ -5,15 +5,15 @@ European Style Curriculum Vitae (Résumé) Template, in HTML+CSS
 
 ## Motivation
 Different aspects of your CV may be more or less relevant to different prospective employers, or to employers in differect sectors. Maintaining different versions of your CV becomes burdensome if you need to compare versions tailored to different purposes.
-An obvious approach would be to maintain a ver comprehensive master CV, and then remove parts unrelevant to each prospective employer to create a customized copy. However, this approach may not work for you, for example if you needs to rephrase entire sentences.
-Since HTML source is textual, comparison of different versions should be easy, at least for the coding-inclined person.
+An obvious approach would be to maintain a very comprehensive master CV, and then to create customized coies by removing parts unrelevant to each prospective employer. However, this approach may not work for you, for example if you needs to rephrase entire sentences.  
+Since HTML source is textual, comparison of different versions should be easy, at least for the coding-inclined person. Keep in mind that the purpose here is to compare *content*. Comparison of styling and formatting must be done in the old way.
 
 ## How-To
 ### If you know a lot about HTML and CSS
 You probably know *more* than I do, so skip the rest, download the files and use them as you prefer. To compare different version, use a file comparison tools.
 ### If you know just a little about HTML and CSS
-That little you know about HTML is probably enough to make use of the template. Download the **html** and **.css** into the same directory, edit the **.html** file, replacing the default values with your details and duplicating HTML elements as required. As others before me, I recommend keeping styling issues to the **.css** file as much as practical.
-When you are done, my idea was that one would *print* the result to a PDF file.
+That little you know about HTML is probably enough to make use of the template. Download the **html** and **.css** into the same directory, edit the **.html** file, replacing the default values with your details and duplicating HTML elements as required. As others before me, I recommend keeping styling issues to the **.css** file as much as practical.  
+When you are done, my idea was that one would *print* the result to a PDF file. Review the printing options before printing! For example, by default your browser may print the URL into the header of the resulting PDF, but it is more likely that you will prefer your details (you can fill them in '<title>' HTML element too), or just leave it empty.  
 To compare different versions of your CV, you a [file comparison tool](https://en.wikipedia.org/wiki/File_comparison) is very useful. I am not recommending any in particular, but since the task is not very complex, you won't need a sophisticated tool. Use it to compare the **.html** files as text files.
 ### If you don't know anything at all about HTML
 Well... I didn't really expect you to come here. That said, what follows is a short guide to make use of the template. It should give you the gist of how to proceed, but to avoid getting lost you should really learn at least some HTML (several tutorials can be found on the Internet, some are good and easy to follow).  
