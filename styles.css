@@ -1,7 +1,11 @@
 @page {
   size: a4 portrait;
   margin-top: 95.3mm;
+  margin-right: 9.7mm;
   margin-bottom: 10.3mm;
   margin-left: 9.5mm;
-  margin-right: 9.7mm;
+}
+
+body {
+    font-family: "Verdana", "Liberation Sans", "Sans Serif";
 }
