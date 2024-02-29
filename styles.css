@@ -1,6 +1,6 @@
 @page {
   size: a4 portrait;
-  margin-top: 95.3mm;
+  margin-top: 5.3mm;
   margin-right: 9.7mm;
   margin-bottom: 10.3mm;
   margin-left: 9.5mm;
@@ -15,8 +15,9 @@ h1 {
     font-size: 12pt;
 }
 
-h2 {
+.cv-heading {
     font-size: 10pt;
+    font-weight: bold;
 }
 
 .cv-item-name, .cv-item-value {
@@ -24,10 +25,19 @@ h2 {
 }
 
 /* Alignment, Padding, Width(s)...  */
+.cv-heading {
+    text-align: right;
+    padding-top: 5mm;
+    padding-bottom: 2mm;
+    padding-right: 2mm;
+    width: 50mm;
+}
+
 .cv-item-name {
     text-align: right;
 }
-.cv-item-name, h2 {
+
+.cv-item-name {
     padding-right: 2mm;
     width: 50mm;
 }
@@ -47,3 +57,9 @@ td {
     border: 1px solid green;  /* TODO remove borders once finished */
 }
 
+.vert_line_1st_page {
+  height: 259mm;
+  border-left: 0.4mm solid gray;
+  position: absolute;
+  left: 54mm;
+}
