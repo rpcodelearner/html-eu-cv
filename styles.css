@@ -10,17 +10,24 @@ body {
     font-family: "Verdana", "Liberation Sans", "Sans Serif";
 }
 
-table {
-    width: 190mm;
-    border: 1px solid blue;  /* TODO remove borders once finished */
+/* Font Sizes */
+h1 {
+    font-size: 12pt;
 }
 
-td {
-    border: 1px solid green;  /* TODO remove borders once finished */
+h2 {
+    font-size: 10pt;
 }
 
+.cv-item-name, .cv-item-value {
+    font-size: 9pt;
+}
+
+/* Alignment, Padding, Width(s)...  */
 .cv-item-name {
     text-align: right;
+}
+.cv-item-name, h2 {
     padding-right: 2mm;
     width: 50mm;
 }
@@ -30,3 +37,13 @@ td {
     padding-left: 2mm;
     width: 140mm;
 }
+
+table {
+    width: 190mm;
+    border: 1px solid blue;  /* TODO remove borders once finished */
+}
+
+td {
+    border: 1px solid green;  /* TODO remove borders once finished */
+}
+
