@@ -58,9 +58,3 @@ td {
     border: 1px solid green;  /* TODO remove borders once finished */
 }
 
-.vert_line_1st_page {
-  height: 259mm;
-  border-left: 0.4mm solid gray;
-  position: absolute;
-  left: 54mm;
-}
