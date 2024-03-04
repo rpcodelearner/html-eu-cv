@@ -21,7 +21,7 @@ h1 {
     font-weight: bold;
 }
 
-.cv-item-name, .cv-item-value {
+.cv-item-name, .cv-item-value, .cv-language-item {
     font-size: 9pt;
 }
 
@@ -36,11 +36,10 @@ h1 {
 
 .cv-item-name {
     text-align: right;
-}
-
-.cv-item-name {
+    vertical-align: top;
     padding-right: 2mm;
     width: 50mm;
+    border-right: 1pt solid black;
 }
 
 .cv-item-value {
@@ -49,12 +48,16 @@ h1 {
     width: 140mm;
 }
 
+.cv-language-item {
+    text-align: left;
+    padding-left: 2mm;
+    width: auto; /* FIXME - 5 of these elements must span exactly like 1 element of class cv-item-value */
+}
+
 table {
     width: 190mm;
-    border: 1px solid blue;  /* TODO remove borders once finished */
 }
 
 td {
-    border: 1px solid green;  /* TODO remove borders once finished */
 }
 
