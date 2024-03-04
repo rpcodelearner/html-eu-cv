@@ -1,4 +1,4 @@
-TODO - avoid breaking of tables between pages
+
 
 TODO - define header+footer content: applicant's name and contact information, page number
 

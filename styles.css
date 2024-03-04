@@ -51,6 +51,7 @@ h1 {
 }
 
 table {
+    page-break-inside: avoid;
     margin-top: 18pt;
     width: 190mm;
 }
