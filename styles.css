@@ -6,15 +6,16 @@
   margin-left: 9.5mm;
 }
 
+/* --- General Styles */
 body {
     font-family: "Verdana", "Liberation Sans", "Sans Serif";
 }
 
-/* Font Sizes */
 h1 {
     font-size: 12pt;
 }
 
+/* --- Font Sizes */
 .cv-heading {
     font-size: 10pt;
     font-weight: bold;
@@ -24,7 +25,7 @@ h1 {
     font-size: 9pt;
 }
 
-/* Alignment, Padding, Width(s)...  */
+/* --- Alignment, Padding, Width(s)...  */
 .cv-heading {
     text-align: right;
     padding-top: 5mm;
