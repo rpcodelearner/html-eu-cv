@@ -11,11 +11,11 @@ body {
     font-family: "Verdana", "Liberation Sans", "Sans Serif";
 }
 
+/* --- Font Sizes */
 h1 {
     font-size: 12pt;
 }
 
-/* --- Font Sizes */
 .cv-heading {
     font-size: 10pt;
     font-weight: bold;
@@ -25,21 +25,17 @@ h1 {
     font-size: 9pt;
 }
 
-/* --- Alignment, Padding, Width(s)...  */
-.cv-heading {
-    text-align: right;
-    padding-top: 5mm;
-    padding-bottom: 2mm;
-    padding-right: 2mm;
-    width: 50mm;
-}
-
-.cv-item-name {
+/* --- Alignment, Padding, Width(s)... */
+.cv-item-name, .cv-heading {
     text-align: right;
     vertical-align: top;
     padding-right: 2mm;
     width: 50mm;
     border-right: 1pt solid black;
+}
+.cv-heading {
+    padding-top: 2mm;
+    padding-bottom: 2mm;
 }
 
 .cv-item-value {
@@ -55,6 +51,7 @@ h1 {
 }
 
 table {
+    margin-top: 18pt;
     width: 190mm;
 }
 
