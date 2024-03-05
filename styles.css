@@ -46,6 +46,15 @@ td {
     padding: 0mm;
 }
 
+ul, li {
+    margin: 0mm;
+    border: 0mm;
+    padding: 0mm;
+}
+ul {
+    padding-left: 3mm;
+}
+
 .cv-item-name, .cv-heading {
     margin: 0mm;
     border-right: 0.1mm solid black;
