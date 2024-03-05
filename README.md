@@ -1,31 +1,26 @@
-# html-eu-cv - UNDER DEV
-**WARNING (2024.Feb.24) - I began by writing the README.md file and the repo is still EMPTY**  
-  
+# html-eu-cv
 European Style Curriculum Vitae (Résumé) Template, in HTML+CSS
 
 ## Motivation
-Different aspects of your CV may be more or less relevant to different prospective employers, or to employers in differect sectors. Maintaining different versions of your CV becomes burdensome if you need to compare versions tailored to different purposes.
-An obvious approach would be to maintain a very comprehensive master CV, and then to create customized coies by removing parts unrelevant to each prospective employer. However, this approach may not work for you, for example if you needs to rephrase entire sentences.  
-Since HTML source is textual, comparison of different versions should be easy, at least for the coding-inclined person. Keep in mind that the purpose here is to compare *content*. Comparison of styling and formatting must be done in the old way.
+Different aspects of your CV may be more or less relevant to different employers or different sectors. Comparing different versions of your CV can be burdensome, especially if the customization consist in rephrasing sentences, rather than just "pruning a master CV".  
+Since HTML source is textual, hope is that comparing different versions should be easier, at least to the coding-inclined person.  
+Another obvious motivation, is that some people may prefer HTML, CSS to other formats.
 
 ## How-To
-### If you know a lot about HTML and CSS
-You probably know *more* than I do, so skip the rest, download the files and use them as you prefer. To compare different version, use a file comparison tools.
+### If you are comfortable with HTML and CSS
+Most likely you know *more than I do*, so download the files and use them at your will.
 ### If you know just a little about HTML and CSS
-That little you know about HTML is probably enough to make use of the template. Download the **html** and **.css** into the same directory, edit the **.html** file, replacing the default values with your details and duplicating HTML elements as required. As others before me, I recommend keeping styling issues to the **.css** file as much as practical.  
-When you are done, my idea was that one would *print* the result to a PDF file. Review the printing options before printing! For example, by default your browser may print the URL into the header of the resulting PDF, but it is more likely that you will prefer your details (you can fill them in '<title>' HTML element too), or just leave it empty.  
-To compare different versions of your CV, you a [file comparison tool](https://en.wikipedia.org/wiki/File_comparison) is very useful. I am not recommending any in particular, but since the task is not very complex, you won't need a sophisticated tool. Use it to compare the **.html** files as text files.
+That "little" you know about HTML is probably enough to use this template.  
+Download the **html** and **.css** into the same directory, and edit the **.html** file. Replace default values with your details, duplicate and edit HTML elements as required.
+Note how some units are enclosed in a `<table>` element, so you will need to duplicate the whole `<table>...</table>` section to add a working experience, an academic title and so on.  
+Of course, deal with styling issues by editing the **.css** file as far as practical.  
+Hint: if you feel confused about how the table parts are organized and nested, you may (temporarily) add recognizable borders to the styles of table, td, and the various .cv-... classes. 
 ### If you don't know anything at all about HTML
-Well... I didn't really expect you to come here. That said, what follows is a short guide to make use of the template. It should give you the gist of how to proceed, but to avoid getting lost you should really learn at least some HTML (several tutorials can be found on the Internet, some are good and easy to follow).  
-Begin with downloading the **.css** file and the **.html** file in a directory (aka "folder") of your choice. You can rename the **.html** file but don't rename the **.css** file. Basically, the **.css** file includes styling information, like the thickness and colour of lines, font to use for each item and so on. Leave it alone for now: you need to be better at HTML+CSS to make changes there. Also, remember to keep the two files in the same directory, because the **.html** file includes a reference to the **.css** file.  
-Open the **.html** in a *text* editor, even a simple one. You will notice several... *things* that look like `<h2>Personal Information</h2>`, or `<td class="...">0, Empty Str., Noname City</td>`. Those are "HTML elements." **Do not touch** the text between angular brackets (`h2` or `td class=...` in the previous example); those are meaningful to your browser and other apps that interpret HTML. Focus instead on the content that looks meaningful to you: those are the parts that will show up in the rendered result.  
-To see what I mean, keep the text editor open, but also open the **.html** file in a browser: you will recognize the same words.  
-Try some editing in the text editor, for example change the address from "0, Empty Str., Noname City" to something else, save the file (no need to exit the text editor) and refresh the browser: you should see the updated address. Going on like this you should be able to modify all the parts already there.
-However, sooner or later you will have to *add* items to the template, for example to add your skills, since the template only contains an example.
-To add a line in a table. Look for something like the following, just above the place where  
-`<tr>`  
-`   <td class="...">role</td>`  
-`   <td class="...">developer</td>`  
-`</tr>`  
-Then duplicate *the entire block* - from 4 rows to 8 rows - and modify accordingly. The above action will duplicate *a single line*. If you need to insert a whole new table, e.g. to describe a past placement, you will have to duplicate an entire table: copy everything between `<table> ... </table>`, including the two delimiters, paste it where you need it, and modify it.  
-When you are done, and your CV looks OK as rendered in the browser, my suggestion is to *print* it to PDF, which means the browser will *pretend* to print, and it will actually save the result in a **.pdf** file of your choice.
+Well... I didn't really expect you to come here and IMHO you are not going to enjoy using the template. That said, if you *are learning* HTML, it could make sense to give it a try and/or to come back later.  
+### Printing
+When you are done with the editing (and/or the comparison of different versions), my idea was that you would *print* the result to a PDF file. Review the printing options, however! For example my browser by default includes the URL of the file, which makes no sense in a CV.  
+Hint: try setting the content of the `<title>` HTML element and see if the result is ok for you, otherwise, you may just leave it empty.
+### CV Comparison
+To compare different versions of your CV, a [file comparison tool](https://en.wikipedia.org/wiki/File_comparison) could be useful.  
+I am not recommending any tool in particular, but since the task is not very complex, you won't need a sophisticated one.  
+Compare the **.html** files (as text files) to compare the content and the **.css** files for styling and formatting.  
