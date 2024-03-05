@@ -26,35 +26,6 @@ h1 {
 }
 
 /* --- Alignment, Padding, Width(s)... */
-.cv-item-name, .cv-heading {
-    text-align: right;
-    padding-right: 2mm;
-    padding-left: 0mm;
-    border-right: 0.1mm solid black;
-    border-left: 0mm;
-    width: 47.9mm;
-    vertical-align: top;
-}
-.cv-heading {
-    padding-top: 2mm;
-    padding-bottom: 2mm;
-    border-left: 0mm;
-}
-
-.cv-item-value {
-    text-align: left;
-    padding-left: 2mm;
-    border: 0mm;
-    width: 138mm;
-}
-.cv-language-item {
-    text-align: left;
-    padding-left: 2mm;
-    padding-right: 2mm;
-    border: 0mm;
-    width: 23.6mm;
-}
-
 table {
     page-break-inside: avoid;
     margin-top: 6mm;
@@ -71,5 +42,38 @@ td {
     margin-right:   0pt;
     margin-bottom:  0pt;
     margin-left:    0pt;
+    border: 0mm;
+    padding: 0mm;
 }
 
+.cv-item-name, .cv-heading {
+    margin: 0mm;
+    border-right: 0.1mm solid black;
+    border-left: 0mm;
+    padding-right: 2mm;
+    padding-left: 0mm;
+    width: 47.9mm;
+    text-align: right;
+    vertical-align: top;
+}
+
+.cv-heading {
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+}
+
+.cv-item-value {
+    margin: 0mm;
+    border: 0mm;
+    padding-left: 2mm;
+    width: 138mm;
+    text-align: left;
+}
+
+.cv-language-item {
+    border: 0mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    width: 23.6mm;
+    text-align: left;
+}
