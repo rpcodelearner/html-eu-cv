@@ -24,7 +24,8 @@ Hint: try setting the content of the `<title>` HTML element and see if the resul
 To compare different versions of your CV, a [file comparison tool](https://en.wikipedia.org/wiki/File_comparison) could be useful.  
 I am not recommending any tool in particular, but since the task is not very complex, you won't need a sophisticated one.  
 Compare the **.html** files (as text files) to compare the content and the **.css** files for styling and formatting.  
-## Licensing Note (Moral Rights)
-It is the author's intention to license this CV template in the most permissive way, ideally releasing it into the "Public Domain" (see LICENSE file). He is waiving away every right that can be waived away, so that users are allowed to use the CV template as if they had written it themselves.
-However, in most European countries, authors are not allowed to waive away a class of rights named **[moral rights](https://en.wikipedia.org/wiki/Moral_rights)**, which refer to attribution and related issues. Since the template is aimed at European citizens (the author being a EU citizen too), we decided to investigate the issue at least a bit.  
-**TBD**
+## Licensing Notice (Moral Rights)
+This software is created by a citizen of the European Union and mostly aimed at European users (though we see nothing that would prevent use by people from other jurisdictions).
+In most of the EU, authors are **not allowed** to waive away 'moral rights' (a class of rights referring to work attribution, preventing defamation and dealing with similar issues).  
+Hence, it is intended that the author's moral rights **are** reserved.
+To satisfy the need of attribution, also stated in the MIT License, the author added a comment in the '**cv-template.html**' file and another in the '**styles.css**' file. Those comments are only visible in the source code and will not appear, for example, to the reader of *your* CV (also note that your CV will be a *different product*, not a copy of *this* product).

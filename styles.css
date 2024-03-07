@@ -1,3 +1,10 @@
+/* Copyright (c) 2024, https://github.com/rpcodelearner/
+  This software is released under the terms of the MIT License, with the notice
+  that moral rights are reserved. All other terms of the MIT License apply.
+  This software is made up of the files: 'cv-template.html', 'styles.css' (the
+  current file), and the LICENSE file, which contains the MIT License.
+*/
+
 @page {
   size: a4 portrait; /* 210mm × 297mm */
   margin-top: 5.3mm;
