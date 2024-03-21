@@ -60,6 +60,7 @@ ul, li {
 }
 ul {
     padding-left: 3mm;
+    list-style-type: "- ";
 }
 
 .cv-item-name, .cv-heading {
