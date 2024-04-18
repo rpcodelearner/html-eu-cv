@@ -72,6 +72,10 @@ ul {
     padding-left: 3mm;
     list-style-type: "- ";
 }
+li {
+   padding-top: 0.2mm;
+   padding-bottom: 0.2mm;
+}
 
 footer {
     position: fixed;
