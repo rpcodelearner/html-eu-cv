@@ -1,5 +1,4 @@
 
 
-TODO - define header+footer content: applicant's name and contact information, page number
 
 TODO - (while waiting for the "vertical line") make the black separator look continuous
