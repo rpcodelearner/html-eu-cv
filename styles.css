@@ -9,7 +9,7 @@
   size: a4 portrait; /* 210mm × 297mm */
   margin-top: 5.3mm;
   margin-right: 10mm;
-  margin-bottom: 10.3mm;
+  margin-bottom: 0mm;
   margin-left: 10mm;
 }
 
@@ -32,7 +32,17 @@ h1 {
     font-size: 9pt;
 }
 
+footer {
+    font-size: 10pt;
+    font-style: italic;
+    color: grey;
+}
+
 /* --- Alignment, Padding, Width(s)... */
+body {
+    margin-bottom: 10mm;
+}
+
 table {
     page-break-inside: avoid;
     margin-top: 6mm;
@@ -61,6 +71,15 @@ ul, li {
 ul {
     padding-left: 3mm;
     list-style-type: "- ";
+}
+
+footer {
+    position: fixed;
+    padding: 0;
+    left: 0;
+    bottom: 5mm;
+    width: 100%;
+    text-align: left;
 }
 
 .cv-item-name, .cv-heading {
